@@ -1,13 +1,23 @@
-These are the files I use on my website.
+# Shove Resume somewhere #
 
-My current idea now, is to have a consistent top bar and background. Basically what Brendan has now, except I'd have a welcome page with my picture.
+My current idea now, is to have a consistent cropped navbar on the top. It will be a flat bar, and will hopefully be a  deeper sky blue. I can use the color picker for this. Each with a Title in it, that when you scroll to that section is highlighted and this is done while scrolling and instantly, that means I have to put them in order. hopefully.
 
-Welcome Page - Picture of me on the left and a short but descriptive paragraph containing the purpose of the site.
+Introduction - "Hi! I'm Alfred", (work on the introduction)
+Northeastern University, Boston, MA
+Short blurb about me, play it casual. Like: I like DC Comics, Programming, Learning just about anything.
 
-About - Page long about me kinda thing.
+About - "A Little About Myself" Page long about me kinda thing.
 
-Projects - List of projects, each with a summary 
+Projects - "Things I've Worked On" List of projects, each with a summary 
+Use columns until it grows then make it carosel.. or showcase style, like Beatrice? but not gross?
 
-Links to showcase my internet identity
+Contact Me - "Internet Identity" Links to showcase myself, should probably leave the shameful accounts off this
+* Facebook
+* LinkedIn
+* Gmail
+* GitHub
+* Steam Account?
 
-Contact info - Emails, Phone number
+Will be horizontal flat icons about medium size, Make GitHub White on Black
+Will have their own horizontal containing div section
+
