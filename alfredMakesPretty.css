@@ -1,4 +1,13 @@
 .centered {
 	text-align: center;
-	vertical-align: center;
+	margin-right: 10px;
+}
+
+.my-nav-bar {
+	width: 100%;
+	text-align: center;
+}
+
+.section-header {
+	text-align: center;
 }
