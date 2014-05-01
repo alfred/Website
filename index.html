@@ -30,7 +30,7 @@
 <body>
 	<div class="navbar-wrapper">
 		<div class="container-fluid">
-			<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+			<div class="navbar-inverse" role="navigation">
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav centered">
 						<li class="active centered nav-button"><a href="#intro">Introduction</a></li>
@@ -51,46 +51,48 @@
 	<!-- Introduction -->
 
 	<div class="row">
-
-		<div class="col-md-2"></div>
-
-		<div class="col-md-8 centered">
-			<h2 class="centered">Hi, I'm Alfred!<br><small>Northeastern University, Boston, MA</small></h2>
-			I like DC Comics, Programming, Longboarding, and Learning!
-			<p class="lead centered"></p>
+		<div id="welcome-wrapper">
+			<div class="col-md-8 col-md-offset-2 centered">
+				<h2>Hi, I'm Alfred!<br><small>Northeastern University, Boston, MA</small></h2>
+				<p>I like DC Comics, Programming, Longboarding, TV, and PC Gaming!</p>
+			</div>
 		</div>
-
-		<div class="col-md-2"></div>
 	</div>
 
-	<hr>
 	<!-- =============================================== -->
+	<hr id="about">
+	
 	<!-- About Me -->
-
 	<div class="row">
 		<div class="col-md-4">
 			<img class="img-responsive" src="about-me-holi-2014.jpg">
 		</div>
 
-		<div class="col-md-8">
-			<h2 id="about">A Little About Myself</h2>
-			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-		</div>
+		<span>
+			<h2 class="centered">A Little About Myself</h2>
+			
+			<p class="indented">If you're reading this, I bet you probably want a little more of an explanation. Here goes! I was born and raised in Worcester, MA. I started spending all my time on computers in 2004 when I started playing computer games. Within months, I found myself spending all my free time online, playing games and learning cool new things. Thus, begins the most condensed story about me ever told.</p>
+			
+			<p class="indented">In an effort to keep our archaic computer functioning and to continue satisfying my gaming habits, I had to make many tweaks to my configuration. I managed to learn a lot about troubleshooting computers by repeatedly breaking my operating system and having to fix it before my parents came home from work that day. Needless to say, I was not always 100% successful, but I always learned from my failures!</p>
 
+			<p class="indented">When I'm not tinkering with my computer I enjoy reading comics, and listening to music. I am a few volumes short of a full encyclopedia of the DC Universe. The complex web of relationships between all the heroes, anti-heroes, and villains amazes me. Many characters have been around for over half a century but still find their way into new dangerous and exciting situations. It's always cool to see what trouble your favorite hero is going to get into next. </p>
+
+			<p class="indented">I also enjoy longboarding and spending time with my friends</p>
+
+			<p class="indented">Now I'm a Computer Science major Northeastern and couldn't be happier!</p>
+		</span>
 	</div>
 
-
-	<hr>
 	<!-- ================================================== -->
+	<hr id="projects">
+	
 	<!-- Projects --> 
-
-	<div class="row" id="projects">
+	<div class="row">
 		<h2 class="section-header">Things I've Worked On</h2>
 		<div class="col-lg-4">
-			<img src="placeholder.jpg"  class="img-square img-responsive">
+			<img src="placeholder.jpg" class="img-square img-responsive">
 			<h3>The Pull List</h3>
 			<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-
 
 			<!-- Make sure to style these the same length from the bottom of the div-->
 			<div><a href="">Link To Play Store</a></div>
@@ -112,9 +114,11 @@
 		</div><!-- /.col-lg-4 -->
 	</div>
 
-	<hr>
+	<!-- ================================================== -->
+	<hr id="contact-me">
 
-	<div class="row" id="contact-me">
+	<!-- Contact Info -->
+	<div class="row">
 		<div>
 			<h2 class="section-header">My Internet Identity</h2>
 			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
