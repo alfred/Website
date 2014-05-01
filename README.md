@@ -5,6 +5,7 @@ My current idea now, is to have a consistent cropped navbar on the top. It will 
 Introduction - "Hi! I'm Alfred", (work on the introduction)
 Northeastern University, Boston, MA
 Short blurb about me, play it casual. Like: I like DC Comics, Programming, Learning just about anything.
+Make this background the blurry silkweave thing, you still have it in the Pictures folder
 
 About - "A Little About Myself" Page long about me kinda thing.
 
