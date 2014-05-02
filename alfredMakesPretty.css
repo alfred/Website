@@ -19,10 +19,50 @@
 
 #welcome-wrapper {
 	height: 500px;
-	background-color: #000;
+	background-color: #0f0f0f;
 }
 
-/*#navbar {
+#navbar {
+	background-color: #0000ff;
 	position: relative;
+	width: auto;
 	z-index: 1000;
-}*/
+	border-radius: 0;
+	border width: 0 0 0 0px;
+}
+
+@media (min-width: 768px)
+#navbar {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#navbar > li {
+	position: relative;
+	display: block;
+}
+
+@media (min-width: 768px)
+#navbar > li {
+	float: left;
+}
+
+.wmd-wrapper {
+
+}
+
+#wmd-title {
+	text-align: center;
+}
+.wmd {
+	text-align: left;
+	padding-left: 2%;
+}
+
+.wmd-header {
+	font-weight: bolder;
+}
+
+.wmd-items {
+
+}
