@@ -7,16 +7,6 @@
 	text-align: center;
 }
 
-.indented {
-	text-indent: 5%;
-	padding-right: 3%;
-	padding-left: 3%;
-}
-
-.inline-link {
-
-}
-
 #welcome-wrapper {
 	height: 500px;
 	background-color: #0f0f0f;
