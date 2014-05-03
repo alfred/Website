@@ -1,0 +1,87 @@
+.centered {
+	text-align: center;
+	margin-right: 10px;
+}
+
+.section-header {
+	text-align: center;
+}
+
+#welcome-wrapper {
+	height: 500px;
+	background-color: #0f0f0f;
+}
+
+#navbar {
+	background-color: #0000ff;
+	position: relative;
+	width: auto;
+	z-index: 1000;
+	border-radius: 0;
+	border width: 0 0 0 0px;
+}
+
+@media (min-width: 768px)
+#navbar {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#navbar > li {
+	position: relative;
+	display: block;
+}
+
+@media (min-width: 768px)
+#navbar > li {
+	float: left;
+}
+
+.wmd-wrapper {
+
+}
+
+#wmd-title {
+	text-align: left;
+}
+.wmd {
+	text-align: left;
+	padding-left: 2%;
+}
+
+.wmd-header {
+	font-weight: bolder;
+}
+
+.wmd-items {
+
+}
+
+.app-icon {
+	border-radius: 30%;
+	display: inline-block;
+	overflow: hidden;
+	float: none;
+}
+
+.app-desc {
+	text-align: left;
+	text-indent: 30px;
+}
+
+.linkless {
+	color: inherit;
+	text-decoration: none;
+}
+
+.linkless:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+.project {
+    display:inline-block;
+    margin:10px 10px;
+    overflow:hidden;
+    float: none;
+}
