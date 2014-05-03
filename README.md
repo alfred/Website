@@ -19,6 +19,11 @@ Contact Me - "Internet Identity" Links to showcase myself, should probably leave
 * GitHub
 * Steam Account?
 
-Will be horizontal flat icons about medium size, Make GitHub White on Black
-Will have their own horizontal containing div section
-
+# TO DOS #
+* Completely re-do navbar from scratch, bootstrap letting me down
+* Projects line should comfortable fit 3 on my screen before pushing one down wtf
+* Get icons to actually resize would be nice
+* Give page items background colors
+* Choose font and font colors for page items
+* Add icons for WMDs
+** Make WMDs have static backgrounds and then on hover change to color that matches icon
