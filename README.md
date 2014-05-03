@@ -27,3 +27,5 @@ Contact Me - "Internet Identity" Links to showcase myself, should probably leave
 * Choose font and font colors for page items
 * Add icons for WMDs
 ** Make WMDs have static backgrounds and then on hover change to color that matches icon
+
+Wine Berry = #591D35

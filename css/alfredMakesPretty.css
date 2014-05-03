@@ -1,37 +1,31 @@
 .centered {
 	text-align: center;
-	margin-right: 10px;
 }
 
-.section-header {
-	text-align: center;
+/* So nav bar does not overlay content */
+body {
+	padding-top: 50px;
+	background-color: black;
 }
-.nav-wrap {
-	
+
+.navbar {
+	border-style: none;
+	background-color: rgba(51,1,0,0.90);
+	background-image: none;
 }
-ul {
-	margin: 0;
-}
-#navbar {
-	list-style: none;
-	display: block;
-	width: 100% !important;
+
+.section {
 	background-color: #000;
-	overflow: hidden;
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
+	padding: 60px 20px 60px 20px;
 }
 
-.nav-button {
-	display: inline;
-	background-color: #ff0000;
+.section-alt {
+	background-color: grey;
+	padding: 60px 20px 60px 20px;
 }
 
-.wmd-wrapper {
-
+.footer {
+	padding-top: 1%;
 }
 
 #wmd-title {
@@ -81,9 +75,5 @@ ul {
 }
 
 .contact-icon {
-	font-size: 50px;
-}
-
-.section {
-	padding: 60px 20px 60px 20px;
+	font-size: 2em;
 }
