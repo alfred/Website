@@ -8,28 +8,14 @@
 }
 
 #navbar {
-	background-color: #0000ff;
-	position: relative;
-	width: auto;
-	z-index: 1000;
-	border-radius: 0;
-	border width: 0 0 0 0px;
-}
-
-@media (min-width: 768px)
-#navbar {
-	padding-left: 0;
-	padding-right: 0;
-}
-
-#navbar > li {
-	position: relative;
+	list-style: none;
 	display: block;
+	width: 100% !important;
+	overflow: visible;
 }
 
-@media (min-width: 768px)
-#navbar > li {
-	float: left;
+.nav-button {
+	display: inline;
 }
 
 .wmd-wrapper {
@@ -39,6 +25,7 @@
 #wmd-title {
 	text-align: left;
 }
+
 .wmd {
 	text-align: left;
 	padding-left: 2%;
