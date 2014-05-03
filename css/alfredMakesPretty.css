@@ -7,11 +7,6 @@
 	text-align: center;
 }
 
-#welcome-wrapper {
-	height: 500px;
-	background-color: #0f0f0f;
-}
-
 #navbar {
 	background-color: #0000ff;
 	position: relative;
@@ -84,4 +79,12 @@
     margin:10px 10px;
     overflow:hidden;
     float: none;
+}
+
+.contact-icon {
+	font-size: 50px;
+}
+
+.section {
+	padding: 60px 20px 60px 20px;
 }
