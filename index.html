@@ -13,18 +13,18 @@
 	<meta name="author" content="Alfred Ababio">
 
 	<!-- Import stuff! -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
 	<!-- Stylesheets!-->
-	<link type="text/css" rel="stylesheet" href="alfredMakesPretty.css" />
-	<link type="text/css" rel="stylesheet" href="bootstrap.css" />
-	<link type="text/css" rel="stylesheet" href="bootstrap-theme.css" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/bootstrap-theme.css" />
+	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="css/alfredMakesPretty.css" />
 
 	<!-- JavaScripts! -->
-	<script src="jquery-2.1.0.min.js"></script>
-	<script src="alfredAddsSomeCode.js"></script>
-	<script src="bootstrap.js"></script>
-
+	<script src="javascripts/jquery-2.1.0.min.js"></script>
+	<script src="javascripts/alfredAddsSomeCode.js"></script>
+	<script src="javascripts/bootstrap.js"></script>
 </head>
 
 <body>
@@ -64,13 +64,12 @@
 		<!-- About Me -->
 		<div class="row">
 
+			<h2 class="centered">A Little About Myself</h2>
 			<div class="col-sm-4">
-				<img class="img-responsive" src="about-me-holi-2014.jpg">
+				<img class="img-responsive" src="images/about-me-holi-2014.jpg">
 			</div>
 
 			<span>
-				<h2 class="centered">A Little About Myself</h2>
-
 				<p>I am currently a Computer Science major at Northeastern University. I have experience as a full-stack web developer and IT Support Technician.</p>
 
 				<p>Even with all of that, I find time to get away from my computer screen. If I’m not being mesmerized by the adventures of the Justice League, I’m out cruising on my longboard or hanging out with my friends. I only started longboarding recently, but I picked it up quickly and now I rarely ever walk.  I even took the opportunity to design my own longboard decal!</p>
@@ -102,30 +101,34 @@
 		<!-- Projects --> 
 		<div class="row">
 			<hr id="projects">
-			<h2 class="section-header">Things I've Worked On</h2>
-			<div class="col-lg-4">
-				<img src="placeholder.jpg" class="img-square img-responsive">
-				<h3>The Pull List</h3>
-				<p>An app that allows the user to subscribe to </p>
+			<div class="centered">
+				<h2 class="section-header">Things I've Worked On</h2>
+				<div class="col-md-4 project">
+					<img class="app-icon img-responsive"src="http://placekitten.com/g/401/399">
+					<p class="h3">The Pull List <small>(In Development)</small></p>
+					<p class="app-desc">An app that allows the user to subscribe to upcoming comic titles and series from many different publishers and will receive a push notification when a new comic is released. Designed for comic readers who aren't always able to check new releases. I created this with help from the <a href="http://www.comicvine.com/api/" class="linkless">Comic Vine API.</a></p>
 
-				<!-- Make sure to style these the same length from the bottom of the div-->
-				<div><a href="">Link To Play Store</a></div>
-			</div>
-			<!-- /.col-lg-4 -->
-			<div class="col-lg-4">
+					<!-- Make sure to style these the same length from the bottom of the div-->
+					<div>
+						<a href="">
+							<img class="pull-left img-responsive" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png">
+						</a>
+					</div>
+				</div>
+				<!-- /.col-lg-4 -->
+				
+				<div class="col-md-4 project">
+					<img class="app-icon img-responsive"src="http://placekitten.com/401/399">
+					<p class="h3">Quote Board<small>(In Development)</small></p>
+					<p class="app-desc">Inspired by 403 Willis. Create a personal library of thought-provoking multi-person quotes. Pin your favorites or have random rotation and have them displayed on an extremely customizable homescreen widget. This was more for practice, but I the idea is one very dear to me and my roommates. </p>
+					<div>
+						<a href="">
+							<img class="pull-left img-responsive" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png">
+						</a>
+					</div>
+				</div><!-- /.col-lg-4 -->
 
-				<img src="placeholder.jpg"  class="img-square img-responsive">
-				<h3>Pizza Finder</h3>
-				<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-				<div><a href="">Link To Play Store</a></div>
 			</div>
-			<!-- /.col-lg-4 -->
-			<div class="col-lg-4">
-				<img src="placeholder.jpg"  class="img-square img-responsive">
-				<h3>TBA</h3>
-				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-				<div><a href="">Link To Play Store</a></div>
-			</div><!-- /.col-lg-4 -->
 		</div>
 
 		<!-- ================================================== -->
@@ -133,10 +136,29 @@
 		<!-- Contact Info -->
 		<div class="row">
 			<hr id="contact-me">
-
 			<div>
 				<h2 class="section-header">My Internet Identity</h2>
-				<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				<div id="profiles-wrapper">
+
+					<i class="icon ion-ios7-email"></i><i class="icon ion-social-facebook"></i><i class="icon ion-social-github"></i><i class="icon ion-social-linkedin"></i><br>
+					<a href="">
+						
+					</a>
+					<a href="">
+						
+						
+						
+					</a>
+					<a href="">
+						
+					
+						
+					</a>
+					<a href="">
+						
+						
+					</a>
+				</div>
 			</div>
 		</div>
 
@@ -144,8 +166,8 @@
 
 		<!-- FOOTER -->
 		<footer>
-			<p class="pull-right"><a href="#"></a></p>
-			<p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+			<p class="pull-left">Designed by Alfred Ababio</p>
+			<p class="pull-right">Special Thanks to <a href="http://getbootstrap.com/">Bootstrap</a></p>
 		</footer>
 
 	</div><!-- /.container-fluid -->

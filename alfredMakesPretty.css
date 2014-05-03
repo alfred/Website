@@ -42,7 +42,7 @@
 }
 
 #wmd-title {
-	text-align: center;
+	text-align: left;
 }
 .wmd {
 	text-align: left;
@@ -55,4 +55,45 @@
 
 .wmd-items {
 
+}
+
+.app-icon {
+	border-radius: 30%;
+	display: inline-block;
+	overflow: hidden;
+	float: none;
+}
+
+.app-desc {
+	text-align: left;
+	text-indent: 30px;
+}
+
+.linkless {
+	color: inherit;
+	text-decoration: none;
+}
+
+.linkless:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+.project {
+    display:inline-block;
+    margin:10px 10px;
+    overflow:hidden;
+    float: none;
+}
+
+.contact-icon {
+	border-radius: 30%;
+	display: inline-block;
+	overflow: hidden;
+	float: none;
+	
+	height: auto;
+	width: auto;
+	max-width: 150px;
+	max-height: 150px;
 }
