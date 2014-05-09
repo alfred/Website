@@ -5,12 +5,12 @@
 /* So nav bar does not overlay content */
 body {
 	padding-top: 50px;
-	background-color: #661422;
+	background-color: #3f0101;
 }
 
 .navbar {
 	border-style: none;
-	background-color: #3F0106;
+	background-color: #3A0106;
 	background-image: none;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .section-alt {
-	background-color: #626262;
+	background-color: #222;
 	padding: 4% 1% 4% 1%;
 }
 
