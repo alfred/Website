@@ -5,12 +5,12 @@
 /* So nav bar does not overlay content */
 body {
 	padding-top: 50px;
-	background-color: black;
+	background-color: #661422;
 }
 
 .navbar {
 	border-style: none;
-	background-color: rgba(51,1,0,0.90);
+	background-color: #3F0106;
 	background-image: none;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .section-alt {
-	background-color: grey;
+	background-color: #626262;
 	padding: 4% 1% 4% 1%;
 }
 
@@ -76,17 +76,62 @@ body {
 .contact-icon {
 	font-size: 2em;
 }
-
+/*
 .banner-wrapper {
 	position: relative;
 }
-
+*/
 .banner-img {
 	width:100vw;
 }
 
 .banner-text {
 	position: absolute;
-	top: 50vh;
-	width: 100vw;
+	top: 40%;
+	text-align: center;
+}
+
+.banner-wrapper {
+	background: url('../images/download_20140507_224606.jpeg') no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+/*Header SECTION STYLES*/
+#header{
+	background: url('../images/download_20140507_224606.jpeg') no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:65vh;
+}
+.section-overlay-mask {
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #777; opacity: 0.25;
+	display: block;
+}
+
+#header h1 {
+	font-size:5em;
+	color:white;
+	text-align: center;
+	padding-top: 90px;
+}
+#header .col-md-12{
+	height:70%;
+}
+#header p {
+	font-size: 20px;
+	text-align: center;
+	color:white;
+}
+#txt{
+	top:30%;
 }
