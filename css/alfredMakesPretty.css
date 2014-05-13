@@ -16,7 +16,7 @@ body {
 }
 
 .section {
-	padding: 3% 1% 4% 1%;
+	padding: 2% 1% 3% 1%;
 }
 
 .sect-a {
@@ -91,14 +91,14 @@ body {
 }
 
 .banner-title {
-	font-weight: 900;
-	font-size: 3.5em;
+	font-weight: 300;
+	font-size: 5em;
 	color: #0E557A;
 }
 
 .banner-subtitle {
 	font-weight: 100;
-	font-size: 1.5em;
+	font-size: 2em;
 	color: #098691;
 }
 
@@ -129,20 +129,16 @@ body {
 	display: block;
 }
 
-#header h1 {
-	font-size:5em;
-	color:white;
-	text-align: center;
-	padding-top: 90px;
+
+.headers-text {
+	font-family: 'Bree Serif', serif;
+	font-size: 2.75em;
+	font-weight: 100;
+	color: #CFBAC4;
 }
-#header .col-md-12{
-	height:70%;
-}
-#header p {
-	font-size: 20px;
-	text-align: center;
-	color:white;
-}
-#txt{
-	top:40%;
+
+.subheadings {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.35em;
+	color: #FFF;
 }
