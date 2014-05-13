@@ -27,6 +27,10 @@ body {
 	background-color: #64242E;
 }
 
+.project {
+	padding: 2% 2% 2% 2%;
+	border: 1px 1px 1px 1px;
+}
 .sect-c {
 	background-color: #B15160;
 }
@@ -67,6 +71,23 @@ body {
 .app-desc {
 	text-align: left;
 	text-indent: 30px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.15em;
+	font-weight: 300;
+	color: #FFDBD9;
+}
+
+.app-title {
+	font-family: 'Nato Sans', sans-serif;
+	font-size: 1.8em;
+	font-weight: 500;
+}
+
+.in-dev {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.65em;
+	font-weight: 300;
+	color: #7D7D7D;
 }
 
 .linkless {
@@ -142,3 +163,4 @@ body {
 	font-size: 1.35em;
 	color: #FFF;
 }
+
