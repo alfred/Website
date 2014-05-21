@@ -2,6 +2,11 @@
 	text-align: center;
 }
 
+.justifier {
+	width: 100%;
+	display: inline-block;
+}
+
 
 body {
 	padding-top: 50px; /* So nav bar does not overlay content */
@@ -126,8 +131,21 @@ body {
 	text-decoration: none;
 }
 
+.contact-list {
+	vertical-align: middle;
+}
+
 .contact-icon {
 	font-size: 2em;
+}
+
+.contact-mount {
+	background-color: #000;
+	display: inline-block;
+	text-align: center;
+
+	height: 56px;
+	width: 56px;
 }
 
 .banner-text {
