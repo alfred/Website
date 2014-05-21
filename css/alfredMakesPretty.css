@@ -45,23 +45,6 @@ body {
 	padding-top: 1%;
 }
 
-#wmd-title {
-	text-align: left;
-}
-
-.wmd {
-	text-align: left;
-	padding-left: 2%;
-}
-
-.wmd-header {
-	font-weight: bolder;
-}
-
-.wmd-items {
-
-}
-
 .parent {
 	overflow: hidden;
 	position: relative;
@@ -87,7 +70,7 @@ body {
 	overflow: hidden;
 	float: none;
 	
-	width: 75%;
+	width: 60%;
 	height: auto;
 	
 	margin-left: auto;
@@ -101,6 +84,8 @@ body {
 	font-size: 1.15em;
 	font-weight: 300;
 	color: #FFDBD9;
+
+	text-align: center;
 }
 
 .app-title {
@@ -108,6 +93,8 @@ body {
 	font-size: 1.8em;
 	font-weight: 500;
 	margin-bottom: 5%;
+
+	text-align: center;
 }
 
 .in-dev {
@@ -115,10 +102,6 @@ body {
 	font-size: 0.65em;
 	font-weight: 300;
 	color: #7D7D7D;
-}
-
-#last-app {
-
 }
 
 .linkless {
@@ -133,6 +116,15 @@ body {
 
 .contact-list {
 	vertical-align: middle;
+	text-align: center;
+}
+
+.contact-link {
+	color: rgba(180,189,217,0.7);
+}
+
+.contact-link:hover {
+	color: inherit;
 }
 
 .contact-icon {
@@ -140,9 +132,10 @@ body {
 }
 
 .contact-mount {
-	background-color: #000;
+	background-color: rgba(53,56,64,0.55);
 	display: inline-block;
-	text-align: center;
+
+	text-decoration: none;
 
 	height: 56px;
 	width: 56px;
