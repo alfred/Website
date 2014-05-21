@@ -20,7 +20,7 @@ body {
 }
 
 .sect-a {
-	background-color: #A44B59;
+	background-color: #8A3F4B; /* A44B59 */
 }
 
 .sect-b {
@@ -28,11 +28,11 @@ body {
 }
 
 .sect-c {
-	background-color: #B15160;
+	background-color: #8A3F4B; /* B15160 */
 }
 
 .sect-d {
-	background-color: #8A3F4B; /* 72728E */
+	background-color: #64242E; /* 72728E */
 	padding: 2% 1% 2% 1%;
 }
 
@@ -59,11 +59,22 @@ body {
 
 .parent {
 	overflow: hidden;
+	position: relative;
 }
 
-.project {
+.project, .first-project {
 	margin-bottom: -99999px;
-	padding-bottom: 99999px;
+	padding-bottom: 99999px; 
+}
+
+.project::before {
+    content:" ";
+    margin:0 -15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #594C59;
 }
 
 .app-icon {
@@ -99,6 +110,10 @@ body {
 	font-size: 0.65em;
 	font-weight: 300;
 	color: #7D7D7D;
+}
+
+#last-app {
+
 }
 
 .linkless {
