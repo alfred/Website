@@ -160,6 +160,7 @@ body {
 
 .contact-link:hover {
 	color: #BF3E52;
+	text-decoration: none;
 }
 
 .contact-icon {
