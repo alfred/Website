@@ -2,14 +2,8 @@
 	text-align: center;
 }
 
-.justifier {
-	width: 100%;
-	display: inline-block;
-}
-
-
 body {
-	padding-top: 50px; /* So nav bar does not overlay content */
+	padding-top: 35px; /* So nav bar does not overlay content */
 	background-color: #862850;
 	color: #FFF;
 }
@@ -19,10 +13,36 @@ body {
 	margin-right: 0px;
 }
 
-.navbar {
-	border-style: none;
+.my-nav {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1030;
+
 	background-color: #470107;
-	background-image: none;
+	min-height: 35px;
+	height: 35px;
+
+	border: 0px;
+}
+
+.nav-list {
+	list-style-type: none;
+	text-align: justify;
+
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.25em;
+}
+
+.nav-item {
+	display: inline;
+/*	background-color: #FFF;*/
+	height: 100%;
+}
+
+.stretch {
+	display: inline-block;
+	width: 100%;
 }
 
 .section {
