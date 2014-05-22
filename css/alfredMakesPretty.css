@@ -127,11 +127,11 @@ body {
 }
 
 .contact-link {
-	color: rgba(74,27,34,0.8);
+	color: #BF6572;
 }
 
 .contact-link:hover {
-	color: inherit;
+	color: #BF3E52;
 }
 
 .contact-icon {
@@ -139,7 +139,7 @@ body {
 }
 
 .contact-mount {
-	background-color: rgba(53,56,64,0.35);
+	background-color: rgba(74,27,34,0.35);
 	display: inline-block;
 
 	text-decoration: none;
