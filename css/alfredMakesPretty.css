@@ -14,6 +14,11 @@ body {
 	color: #FFF;
 }
 
+/* Scrolling right is for scrubs */
+.row {
+	margin-right: 0px;
+}
+
 .navbar {
 	border-style: none;
 	background-color: #470107;
