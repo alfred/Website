@@ -28,24 +28,26 @@ body {
 
 .nav-list {
 	list-style-type: none;
-	text-align: justify;
-
+	margin-top: 0.45%;
 	font-family: 'Oxygen', sans-serif;
 	font-size: 1.25em;
+	text-align: center;
 }
 
 .nav-item {
 	display: inline;
-	background-color: #FFF;
-	height: 100%;
+	padding: 1% 2% 1% 2%;
+	text-decoration: none;
 }
 
 .nav-link {
 	text-decoration: none;
+	color: #FFF;
 }
 
 .nav-link:hover {
 	text-decoration: none;
+	color: #FFF;
 }
 
 .stretch {
@@ -89,13 +91,13 @@ body {
 }
 
 .project::before {
-    content:" ";
-    margin:0 -15px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    background: #594C59;
+	content:" ";
+	margin:0 -15px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	background: #594C59;
 }
 
 .app-icon {
