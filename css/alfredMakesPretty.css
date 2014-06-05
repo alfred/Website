@@ -28,18 +28,26 @@ body {
 
 .nav-list {
 	list-style-type: none;
-	margin-top: 0.45%;
 	font-family: 'Oxygen', sans-serif;
-	font-size: 1.25em;
+	font-size: 0;
 	text-align: center;
 }
 
 .nav-item {
-	display: inline;
-	padding: 1% 2% 1% 2%;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-decoration: none;
+	margin: none;
+	background-color: rgba(151,69,82,0.7);
 }
 
+.nav-item:hover {
+	
+	background-color: rgba(151,69,82,0.7);
+}
 .nav-link {
 	text-decoration: none;
 	color: #FFF;
