@@ -110,13 +110,26 @@ body {
 }
 
 .app-icon {
-	border-radius: 30%;
+	border-radius: 20%;
 	overflow: hidden;
 	float: none;
-	
 	width: 60%;
 	height: auto;
-	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+#mean-icon {
+	border-radius: 20%;
+	overflow: hidden;
+	float: none;
+	background-color: #003941;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 57%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 8%;
@@ -146,6 +159,10 @@ body {
 	font-size: 0.65em;
 	font-weight: 300;
 	color: #7D7D7D;
+}
+
+.project-git {
+
 }
 
 .linkless {
