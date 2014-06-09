@@ -73,6 +73,10 @@ body {
 	text-decoration: none;
 	color: #FFF;
 }
+/* ------ MOBILE NAVBAR ----- 
+Navbar to dropdown
+with clickable three line icon thing.
+
 
 /* --------------------------- COVER PICTURE ---------------------------- */
 
@@ -110,10 +114,11 @@ body {
 	color: #098691;
 }
 
-/*.stretch {
-	display: inline-block;
-	width: 100%;
-}*/
+/* --- MOBILE COVER PICTURE
+	Replace the image? 
+		- Fix the top percentage for mobile or change the font-size
+		- font-size may be easier
+*/
 
 /* ----------------------------- ABOUT ME --------------------------------- */
 .sect-a {
@@ -132,6 +137,9 @@ body {
 	font-size: 1.35em;
 	color: #FFF;
 }
+/* --- MOBILE ABOUT ME --- 
+	May add some slight padding on the text cause it's literally a wall of text on phone
+	*/
 
 /* ---------------------------- PROJECTS ---------------------------------- */
 .sect-b {
@@ -209,6 +217,8 @@ body {
 	font-weight: 300;
 	color: #7D7D7D;
 }
+/* ------ MOBILE PROJECTS ---- 
+	Move border for mobile. They are stacked so just seperate them better, ya know maybe can media query hr? Yarly */
 
 /* ------------------------------ CONTACT ------------------------------- */
 .sect-c {
@@ -250,3 +260,6 @@ body {
 	background-color: #64242E; /* 72728E */
 	padding: 1% 1% 2% 1%;
 }
+
+/* ---- MOBILE FOOTER ----- 
+	May remove mobile footer cause why... */
