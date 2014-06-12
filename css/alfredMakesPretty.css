@@ -61,8 +61,6 @@ body {
 	}
 }
 
-
-
 /* --------------------------- COVER PICTURE ---------------------------- */
 
 #header{
@@ -127,6 +125,7 @@ body {
 	*/
 
 	/* ---------------------------- PROJECTS ---------------------------------- */
+
 	.sect-b {
 		background-color: #64242E;
 	}
@@ -241,10 +240,16 @@ Move border for mobile. They are stacked so just seperate them better, ya know m
 }
 
 /* ------------------------------- FOOTER -------------------------------- */
-.sect-d {
-	background-color: #64242E; /* 72728E */
-	padding: 1% 1% 2% 1%;
+/* Not shown on mobile/tablet */
+@media (max-width: 767px) {
+	.sect-d {
+		display: none;
+	}
 }
 
-/* ---- MOBILE FOOTER ----- 
-	May remove mobile footer cause why... */
+@media (min-width: 768px) {
+	.sect-d {
+		background-color: #64242E; /* 72728E */
+		padding: 1% 1% 2% 1%;
+	}
+}
