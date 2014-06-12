@@ -28,54 +28,39 @@ body {
 }
 
 /* ------------------------------- NAVBAR --------------------------------- */
-.my-nav {
-	position: fixed;
-	width: 100%;
-	top: 0px;
-	z-index: 1030;
-
+.navbar {
 	background-color: #470107;
-	min-height: 35px;
 	height: 35px;
-
-	border: 0px;
+	min-height: 35px;
 }
 
-.nav-list {
-	list-style-type: none;
-	font-family: 'Lato', sans-serif;
-	font-size: 0;
-	text-align: center;
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+		padding: 7.5px 30px;
+		
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		font-weight: 300;
+
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	.navbar-nav > li > a:hover {
+		background-color: rgba(151,69,82,0.75);
+	}
+
+	.navbar-nav {
+		text-align: center;
+		font-size: 0;
+
+		margin: 0 auto;
+		display: table;
+		table-layout: fixed;
+		float: none;
+	}
 }
 
-.nav-item {
-	display: inline-block;
-	font-size: 16px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	line-height: 35px;
-	padding-left: 30px;
-	padding-right: 30px;
-	text-decoration: none;
-	margin: none;
-}
-
-.nav-item:hover {
-	background-color: rgba(151,69,82,0.75);
-}
-
-.nav-link {
-	text-decoration: none;
-	color: #FFF;
-}
-
-.nav-link:hover {
-	text-decoration: none;
-	color: #FFF;
-}
-/* ------ MOBILE NAVBAR ----- 
-Navbar to dropdown
-with clickable three line icon thing.
 
 
 /* --------------------------- COVER PICTURE ---------------------------- */
@@ -118,107 +103,107 @@ with clickable three line icon thing.
 	Replace the image? 
 		- Fix the top percentage for mobile or change the font-size
 		- font-size may be easier
-*/
+		*/
 
-/* ----------------------------- ABOUT ME --------------------------------- */
-.sect-a {
-	background-color: #8A3F4B; /* A44B59 */
-}
+		/* ----------------------------- ABOUT ME --------------------------------- */
+		.sect-a {
+			background-color: #8A3F4B; /* A44B59 */
+		}
 
-.headers-text {
-	font-family: 'Bree Serif', serif;
-	font-size: 2.75em;
-	font-weight: 100;
-	color: #CFBAC4;
-}
+		.headers-text {
+			font-family: 'Bree Serif', serif;
+			font-size: 2.75em;
+			font-weight: 100;
+			color: #CFBAC4;
+		}
 
-.subheadings {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.35em;
-	color: #FFF;
-}
+		.subheadings {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 1.35em;
+			color: #FFF;
+		}
 /* --- MOBILE ABOUT ME --- 
 	May add some slight padding on the text cause it's literally a wall of text on phone
 	*/
 
-/* ---------------------------- PROJECTS ---------------------------------- */
-.sect-b {
-	background-color: #64242E;
-}
+	/* ---------------------------- PROJECTS ---------------------------------- */
+	.sect-b {
+		background-color: #64242E;
+	}
 
-.parent {
-	overflow: hidden;
-	position: relative;
-}
+	.parent {
+		overflow: hidden;
+		position: relative;
+	}
 
-.project, .first-project {
-	margin-bottom: -99999px;
-	padding-bottom: 99999px; 
-}
+	.project, .first-project {
+		margin-bottom: -99999px;
+		padding-bottom: 99999px; 
+	}
 
-.project::before {
-	content:" ";
-	margin:0 -15px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 1px;
-	background: #594C59;
-}
+	.project::before {
+		content:" ";
+		margin:0 -15px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 1px;
+		background: #594C59;
+	}
 
-.app-icon {
-	border-radius: 20%;
-	overflow: hidden;
-	float: none;
-	width: 60%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 8%;
-	margin-bottom: 8%;
-}
+	.app-icon {
+		border-radius: 20%;
+		overflow: hidden;
+		float: none;
+		width: 60%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
 
-#mean-icon {
-	border-radius: 20%;
-	overflow: hidden;
-	float: none;
-	background-color: #003941;
-	padding-left: 2px;
-	padding-right: 2px;
-	width: 57%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 8%;
-	margin-bottom: 8%;
-}
+	#mean-icon {
+		border-radius: 20%;
+		overflow: hidden;
+		float: none;
+		background-color: #003941;
+		padding-left: 2px;
+		padding-right: 2px;
+		width: 57%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
 
-.app-desc {
-	font-family: 'Oxygen', sans-serif;
-	font-size: 1.15em;
-	font-weight: 300;
-	color: #FFDBD9;
+	.app-desc {
+		font-family: 'Oxygen', sans-serif;
+		font-size: 1.15em;
+		font-weight: 300;
+		color: #FFDBD9;
 
-	text-align: center;
-}
+		text-align: center;
+	}
 
-.app-title {
-	font-family: 'Nato Sans', sans-serif;
-	font-size: 1.8em;
-	font-weight: 500;
-	margin-bottom: 5%;
+	.app-title {
+		font-family: 'Nato Sans', sans-serif;
+		font-size: 1.8em;
+		font-weight: 500;
+		margin-bottom: 5%;
 
-	text-align: center;
-}
+		text-align: center;
+	}
 
-.in-dev {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 0.65em;
-	font-weight: 300;
-	color: #7D7D7D;
-}
+	.in-dev {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 0.65em;
+		font-weight: 300;
+		color: #7D7D7D;
+	}
 /* ------ MOBILE PROJECTS ---- 
-	Move border for mobile. They are stacked so just seperate them better, ya know maybe can media query hr? Yarly */
+Move border for mobile. They are stacked so just seperate them better, ya know maybe can media query hr? Yarly */
 
 /* ------------------------------ CONTACT ------------------------------- */
 .sect-c {
