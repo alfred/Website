@@ -11,7 +11,7 @@ $(function() {
 			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 			if (target.length) {
 				$('html,body').animate({
-					scrollTop: (target.offset().top - 70) // 70 is how big the navbar is
+					scrollTop: (target.offset().top - 60) // 60? I do not know where this comes from?
 				}, 200);
 				return false;
 			}
