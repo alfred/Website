@@ -28,10 +28,15 @@ body {
 }
 
 /* ------------------------------- NAVBAR --------------------------------- */
-.navbar {
+.navbar, .navbar-header, .navbar-brand {
 	background-color: #470107;
-	height: 35px;
+	max-height: 35px;
 	min-height: 35px;
+	margin-bottom: 0px;
+}
+
+.collapse.in {
+	display: block;
 }
 
 @media (min-width: 768px) {
@@ -58,6 +63,13 @@ body {
 		display: table;
 		table-layout: fixed;
 		float: none;
+	}
+}
+
+@media (max-width: 767px) {
+
+	#menu > .navbar-collapse > .collapse > .in:after {
+
 	}
 }
 
