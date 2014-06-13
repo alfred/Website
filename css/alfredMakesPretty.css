@@ -1,30 +1,16 @@
 /* ------------------------------------- MAIN ----------------------------- */
-.centered {
-	text-align: center;
-}
-
 body {
 	padding-top: 35px; /* So nav bar does not overlay content */
 	background-color: #862850;
 	color: #FFF;
 }
 
-.row {
-	margin-right: 0px;
-}
-
 .section {
 	padding: 2% 1% 3% 1%;
 }
 
-.linkless {
-	color: inherit;
-	text-decoration: none;
-}
-
-.linkless:hover {
-	color: inherit;
-	text-decoration: none;
+#projects > p, #contact-me > p {
+	text-align: center;
 }
 
 /* ------------------------------- NAVBAR --------------------------------- */
@@ -39,6 +25,10 @@ body {
   overflow-y: inherit;
 }
 
+.navbar-nav > li > a:hover {
+	background-color: rgba(151,69,82,0.75);
+}
+
 @media (min-width: 768px) {
 	.navbar-nav > li > a {
 		padding: 7.5px 30px;
@@ -49,10 +39,6 @@ body {
 
 		text-decoration: none;
 		color: #FFF;
-	}
-
-	.navbar-nav > li > a:hover {
-		background-color: rgba(151,69,82,0.75);
 	}
 
 	.navbar-nav {
@@ -67,9 +53,27 @@ body {
 }
 
 @media (max-width: 767px) {
+	.navbar-toggle > span {
+		background-color: #FFF;
+	}
 
-	#menu > .navbar-collapse > .collapse > .in:after {
+	.navbar-toggle {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 
+	.navbar-nav {
+		margin: 0px -15px;
+	}
+	.navbar-nav > li {
+		background-color: #6D020B;
+	}
+
+	.navbar-nav > li > a {
+		color: #FFF;
+	}
+	.navbar-collapse.collapse.in {
+		border-width: 0px;
 	}
 }
 
@@ -77,10 +81,10 @@ body {
 
 #header{
 	background: url('../images/download_20140507_224606.jpeg') no-repeat center;
-	-webkit-background-size: cover;
+/*	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 	height:65vh;
 }
 .section-overlay-mask {
@@ -160,6 +164,12 @@ body {
 		bottom: 0;
 		width: 1px;
 		background: #594C59;
+	}
+
+	.project > p > a {
+		text-decoration: none;
+		color: inherit;
+
 	}
 
 	.app-icon {
@@ -249,19 +259,4 @@ Move border for mobile. They are stacked so just seperate them better, ya know m
 
 	height: 56px;
 	width: 56px;
-}
-
-/* ------------------------------- FOOTER -------------------------------- */
-/* Not shown on mobile/tablet */
-@media (max-width: 767px) {
-	.sect-d {
-		display: none;
-	}
-}
-
-@media (min-width: 768px) {
-	.sect-d {
-		background-color: #64242E; /* 72728E */
-		padding: 1% 1% 2% 1%;
-	}
 }
