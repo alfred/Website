@@ -50,6 +50,7 @@ body {
 		table-layout: fixed;
 		float: none;
 	}
+
 }
 
 @media (max-width: 767px) {
@@ -75,6 +76,10 @@ body {
 	.navbar-collapse.collapse.in {
 		border-width: 0px;
 	}
+}
+
+.current {
+	background-color: #751A1A;
 }
 
 /* --------------------------- COVER PICTURE ---------------------------- */

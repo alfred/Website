@@ -1,20 +1,21 @@
-$(function() {
-	$('.nav-button').click(function() {
-		$(this).siblings().removeClass('active');
-		$(this).addClass('active');
+$(document).ready(function() {
+	var documentWidth = $('body').innerWidth();
+	var topPercentageOfDocument = documentWidth * 0.02;
+	var navBarHeight = 34;
+	var offsetWithNavHeight = topPercentageOfDocument + navBarHeight;
 
-	});
-
-	$('a[href*=#]:not([href=#])').click(function() {
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			if (target.length) {
-				$('html,body').animate({
-					scrollTop: (target.offset().top - 60) // 60? I do not know where this comes from?
-				}, 200);
-				return false;
-			}
-		}
+	$('#nav').singlePageNav({
+		offset: offsetWithNavHeight
 	});
 });
+
+$(window).resize(function() {
+	var documentWidth = $('body').innerWidth();
+	var topPercentageOfDocument = documentWidth * 0.02;
+	var navBarHeight = 34;
+	var offsetWithNavHeight = topPercentageOfDocument + navBarHeight;
+
+	$('#nav').singlePageNav({
+		offset: offsetWithNavHeight
+	});
+})
