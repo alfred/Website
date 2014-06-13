@@ -35,8 +35,8 @@ body {
 	margin-bottom: 0px;
 }
 
-.collapse.in {
-	display: block;
+.navbar-collapse.in {
+  overflow-y: inherit;
 }
 
 @media (min-width: 768px) {
