@@ -86,10 +86,10 @@ body {
 
 #header{
 	background: url('../images/download_20140507_224606.jpeg') no-repeat center;
-/*	-webkit-background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;*/
+	background-size: cover;
 	height:65vh;
 }
 .section-overlay-mask {
