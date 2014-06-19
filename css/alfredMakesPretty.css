@@ -129,13 +129,17 @@ body {
 	color: #098691;
 }
 
+@media (max-width: 768px) {
+
+}
+
 /* --- MOBILE COVER PICTURE
 	Replace the image? 
 		- Fix the top percentage for mobile or change the font-size
 		- font-size may be easier
 		*/
 
-		/* ----------------------------- ABOUT ME --------------------------------- */
+/* ----------------------------- ABOUT ME --------------------------------- */
 		.sect-a {
 			background-color: #8A3F4B; /* A44B59 */
 		}
