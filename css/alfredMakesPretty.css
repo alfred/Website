@@ -121,22 +121,32 @@ body, html {
 	font-family: 'Lobster', cursive;
 }
 
-.banner-title {
-	font-weight: 300;
-	font-size: 5em;
-	color: #0E557A;
+@media (min-width: 480px) {
+	.banner-title {
+		font-weight: 300;
+		font-size: 5em;
+		color: #0E557A;
+	}
+
+	.banner-subtitle {
+		font-weight: 100;
+		font-size: 2em;
+		color: #098691;
+	}
 }
 
-.banner-subtitle {
-	font-weight: 100;
-	font-size: 2em;
-	color: #098691;
-}
-@media (min-width: 767px) {
+@media (max-width: 479px) {
+	.banner-title {
+		font-weight: 300;
+		font-size: 3em;
+		color: #0E557A;
+	}
 
-}
-@media (max-width: 768px) {
-
+	.banner-subtitle {
+		font-weight: 100;
+		font-size: 1.4em;
+		color: #098691;
+	}
 }
 
 /* --- MOBILE COVER PICTURE
