@@ -132,7 +132,9 @@ body, html {
 	font-size: 2em;
 	color: #098691;
 }
+@media (min-width: 767px) {
 
+}
 @media (max-width: 768px) {
 
 }
@@ -144,109 +146,109 @@ body, html {
 		*/
 
 /* ----------------------------- ABOUT ME --------------------------------- */
-		.sect-a {
-			background-color: #8A3F4B; /* A44B59 */
-		}
+.sect-a {
+	background-color: #8A3F4B; /* A44B59 */
+}
 
-		.headers-text {
-			font-family: 'Bree Serif', serif;
-			font-size: 2.75em;
-			font-weight: 100;
-			color: #CFBAC4;
-		}
+.headers-text {
+	font-family: 'Bree Serif', serif;
+	font-size: 2.75em;
+	font-weight: 100;
+	color: #CFBAC4;
+}
 
-		.subheadings {
-			font-family: 'Open Sans', sans-serif;
-			font-size: 1.35em;
-			color: #FFF;
-		}
+.subheadings {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.35em;
+	color: #FFF;
+}
 /* --- MOBILE ABOUT ME --- 
 	May add some slight padding on the text cause it's literally a wall of text on phone
 	*/
 
-	/* ---------------------------- PROJECTS ---------------------------------- */
+/* ---------------------------- PROJECTS ---------------------------------- */
 
-	.sect-b {
-		background-color: #64242E;
-	}
+.sect-b {
+	background-color: #64242E;
+}
 
-	.parent {
-		overflow: hidden;
-		position: relative;
-	}
+.parent {
+	overflow: hidden;
+	position: relative;
+}
 
-	.project, .first-project {
-		margin-bottom: -99999px;
-		padding-bottom: 99999px; 
-	}
+.project, .first-project {
+	margin-bottom: -99999px;
+	padding-bottom: 99999px; 
+}
 
-	.project::before {
-		content:" ";
-		margin:0 -15px;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		width: 1px;
-		background: #594C59;
-	}
+.project::before {
+	content:" ";
+	margin:0 -15px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	background: #594C59;
+}
 
-	.project > p > a {
-		text-decoration: none;
-		color: inherit;
+.project > p > a {
+	text-decoration: none;
+	color: inherit;
 
-	}
+}
 
-	.app-icon {
-		border-radius: 20%;
-		overflow: hidden;
-		float: none;
-		width: 60%;
-		height: auto;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 8%;
-		margin-bottom: 8%;
-	}
+.app-icon {
+	border-radius: 20%;
+	overflow: hidden;
+	float: none;
+	width: 60%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
 
-	#mean-icon {
-		border-radius: 20%;
-		overflow: hidden;
-		float: none;
-		background-color: #003941;
-		padding-left: 2px;
-		padding-right: 2px;
-		width: 57%;
-		height: auto;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 8%;
-		margin-bottom: 8%;
-	}
+#mean-icon {
+	border-radius: 20%;
+	overflow: hidden;
+	float: none;
+	background-color: #003941;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 57%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
 
-	.app-desc {
-		font-family: 'Oxygen', sans-serif;
-		font-size: 1.15em;
-		font-weight: 300;
-		color: #FFDBD9;
+.app-desc {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.15em;
+	font-weight: 300;
+	color: #FFDBD9;
 
-		text-align: center;
-	}
+	text-align: center;
+}
 
-	.app-title {
-		font-family: 'Nato Sans', sans-serif;
-		font-size: 1.8em;
-		font-weight: 500;
-		margin-bottom: 5%;
+.app-title {
+	font-family: 'Nato Sans', sans-serif;
+	font-size: 1.8em;
+	font-weight: 500;
+	margin-bottom: 5%;
 
-		text-align: center;
-	}
+	text-align: center;
+}
 
-	.in-dev {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 0.65em;
-		font-weight: 300;
-		color: #7D7D7D;
-	}
+.in-dev {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.65em;
+	font-weight: 300;
+	color: #7D7D7D;
+}
 /* ------ MOBILE PROJECTS ---- 
 Move border for mobile. They are stacked so just seperate them better, ya know maybe can media query hr? Yarly */
 
