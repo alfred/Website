@@ -19,6 +19,11 @@ body, html {
 	text-align: center;
 }
 
+@media (min-width: 768px) {
+	.sect-a, .sect-b {
+		height: 90%;
+	}
+}
 /* ------------------------------- NAVBAR --------------------------------- */
 .navbar, .navbar-header, .navbar-brand {
 	background-color: #470107;
@@ -111,7 +116,7 @@ body, html {
 	-o-background-size: cover;
 	background-size: cover;
 
-	height: 100%;
+	height: 90%;
 }
 
 .banner-text {
@@ -160,6 +165,7 @@ body, html {
 /* ----------------------------- ABOUT ME --------------------------------- */
 .sect-a {
 	background-color: #8A3F4B; /* A44B59 */
+
 }
 
 .headers-text {
