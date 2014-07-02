@@ -19,7 +19,7 @@ body, html {
 	text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (min-height: 768px) {
 	.sect-a, .sect-b {
 		height: 90%;
 	}
