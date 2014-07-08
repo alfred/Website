@@ -7,6 +7,7 @@ $(document).ready(function() {
 	$('#nav').singlePageNav({
 		offset: offsetWithNavHeight
 	});
+
 });
 
 $(window).resize(function() {
@@ -19,3 +20,7 @@ $(window).resize(function() {
 		offset: offsetWithNavHeight
 	});
 })
+
+function resumeRedirect() {
+	window.location="http://www.alfredababio.com/Resume.pdf";
+}
