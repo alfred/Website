@@ -1,32 +1,38 @@
 body,html {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
+	font-weight: 300;
 }
 
 $page-margin: 40px;
-.brand-wrap {
+.head-wrap {
 	margin-right: $page-margin;
 	margin-left: $page-margin;
 }
 
-#brand {
-	font-size: 72px;
-	margin-bottom: 0px;
+.brand-wrap {
+
+	#brand {
+		font-size: 54px;
+		margin-bottom: 0px;
+		font-weight: 300;
+	}
+
+	#sub-brand {
+		font-size: 27px;
+		font-weight: 300;
+		margin-top: 0px;
+		color: rgba(0,0,0,0.4);
+	}
 }
 
-#sub-brand {
-	font-size: 36px;
-	margin-top: 0px;
-	color: rgba(0,0,0,0.4);
-}
 
 .nav-menu {
 	margin-top: 20px;
-	font-size: 60px;
+	font-size: 45px;
 	text-align: right;
 }
 
-$nav-item-offset: 10px;
+$nav-item-offset: 5px;
 .nav-menu li {
 	/** Remove default ul styles */
 	list-style-type: none;
@@ -38,7 +44,11 @@ $nav-item-offset: 10px;
 
 	/** Give them colors */
 	color: rgba(66,66,66,0.7);
+}
 
+.nav-menu li a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .nav-menu li.active {

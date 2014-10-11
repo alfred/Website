@@ -1,23 +1,24 @@
 body, html {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 200; }
+  font-weight: 300; }
 
-.brand-wrap {
+.head-wrap {
   margin-right: 40px;
   margin-left: 40px; }
 
-#brand {
-  font-size: 72px;
-  margin-bottom: 0px; }
-
-#sub-brand {
-  font-size: 36px;
+.brand-wrap #brand {
+  font-size: 54px;
+  margin-bottom: 0px;
+  font-weight: 300; }
+.brand-wrap #sub-brand {
+  font-size: 27px;
+  font-weight: 300;
   margin-top: 0px;
   color: rgba(0, 0, 0, 0.4); }
 
 .nav-menu {
   margin-top: 20px;
-  font-size: 60px;
+  font-size: 45px;
   text-align: right; }
 
 .nav-menu li {
@@ -25,10 +26,14 @@ body, html {
   list-style-type: none;
   display: inline;
   /** Space out li */
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   /** Give them colors */
   color: rgba(66, 66, 66, 0.7); }
+
+.nav-menu li a {
+  text-decoration: none;
+  color: inherit; }
 
 .nav-menu li.active {
   color: #000;
