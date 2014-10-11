@@ -1,11 +1,15 @@
 body, html {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  height: 100%; }
 
 .head-wrap {
   margin-right: 40px;
   margin-left: 40px; }
 
+/** BRANDING */
 .brand-wrap #brand {
   font-size: 54px;
   margin-bottom: 0px;
@@ -16,6 +20,7 @@ body, html {
   margin-top: 0px;
   color: rgba(0, 0, 0, 0.4); }
 
+/** NAVBAR */
 .nav-menu {
   margin-top: 20px;
   font-size: 45px;
@@ -39,3 +44,11 @@ body, html {
   color: #000;
   -webkit-text-stroke-width: 0.25px;
   -webkit-text-stroke-color: black; }
+
+/** CONTACT SECTION */
+#contact p span {
+  display: inline; }
+
+#contact p span a {
+  text-decoration: none;
+  color: inherit; }
