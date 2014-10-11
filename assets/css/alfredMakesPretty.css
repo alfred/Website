@@ -1,0 +1,36 @@
+body, html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200; }
+
+.brand-wrap {
+  margin-right: 40px;
+  margin-left: 40px; }
+
+#brand {
+  font-size: 72px;
+  margin-bottom: 0px; }
+
+#sub-brand {
+  font-size: 36px;
+  margin-top: 0px;
+  color: rgba(0, 0, 0, 0.4); }
+
+.nav-menu {
+  margin-top: 20px;
+  font-size: 60px;
+  text-align: right; }
+
+.nav-menu li {
+  /** Remove default ul styles */
+  list-style-type: none;
+  display: inline;
+  /** Space out li */
+  padding-left: 10px;
+  padding-right: 10px;
+  /** Give them colors */
+  color: rgba(66, 66, 66, 0.7); }
+
+.nav-menu li.active {
+  color: #000;
+  -webkit-text-stroke-width: 0.25px;
+  -webkit-text-stroke-color: black; }
