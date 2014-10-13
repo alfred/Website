@@ -7,13 +7,14 @@ body,html {
 	height: 100%;
 }
 
-$page-padding-top: 20px;
+$page-padding-top: 0px;
 $page-padding-sides: 55px;
-$page-padding-bottom: 40px;
+$page-padding-bottom: 10px;
 .page-wrap {
 	padding-top: $page-padding-top;
 	padding-right: $page-padding-sides;
 	padding-left: $page-padding-sides;
+	padding-bottom: $page-padding-bottom;
 }
 
 /** BRANDING */
@@ -67,6 +68,7 @@ $nav-item-offset: 5px;
 /** CONTACT SECTION */
 #contact ul {
 	text-align:center;
+	margin-bottom: 0px;
 }
 #contact ul a:nth-child(even) {
 	color: rgba(89,89,87,0.6);
@@ -83,4 +85,27 @@ $nav-item-offset: 5px;
 	display: inline;
 
 	font-size: 45px;
+}
+
+/** CONTENT FRAMES */
+.content-frame {
+	border: 1px solid #000;
+	height: 780px;
+	width: 100%;
+}
+
+/***************************** ABOUT SECTION **************************/
+#about-img img {
+	width: 420px;
+	height: 400px;
+}
+#about-img p {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
+
+}
+
+#about-img p:nth-child(2) {
+	font-size: 20px;
+	font-weight: 400;
 }
