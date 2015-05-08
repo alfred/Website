@@ -22,5 +22,5 @@ $(window).resize(function() {
 })
 
 function resumeRedirect() {
-	window.location="http://www.alfredababio.com/Resume.pdf";
+	window.location="http://www.alfredabab.io/Resume.pdf";
 }
